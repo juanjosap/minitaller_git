@@ -1,3 +1,4 @@
+#### testing with multiple accounts in same pc
 # minitaller Git
 # Example to use with Git
 # Marco A. Ámez
