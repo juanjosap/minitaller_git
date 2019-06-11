@@ -1,4 +1,4 @@
-
+﻿
 # prueba
 
 #### new modification
@@ -43,7 +43,9 @@ ggplot(data = catches_10, aes(x=COD_ESP_MUE, y=P_DESEM)) +
 # ═> Plot catch by harbour ----
 ggplot(data = catches_10, aes(x=COD_PUERTO, y=P_DESEM)) +
   geom_bar(stat="identity") + 
-  ggtitle("Catches by harbour")
+  ggtitle("Catches by harbour")+
+facet_grid(COD_PUERTO~COD_ESP_MUE)+
+labs(subtitle="Marco, que no te enteras")
 
 
 
